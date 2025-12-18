@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte da página */
+    margin: 0; /* Remove as margens da página */
+    padding: 20px; /* Adiciona uma margem interna de 20px */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+}
+
+h1, h2 {
+    color: #333; /* Define a cor dos títulos */
+}
+
+input {
+    width: 100%; /* Define a largura dos campos de entrada */
+    margin: 10px; /* Adiciona uma margem externa de 10px */
+    padding: 10px; /* Adiciona uma margem interna de 10px */
+    font-size: 16px; /* Define o tamanho da fonte dos campos de entrada */
+}
+
+button {
+    padding: 10px 20px; /* Define a margem interna dos botões */
+    background-color: #007BFF; /* Define a cor de fundo dos botões */
+    color: white; /* Define a cor do texto dos botões */
+    border: none; /* Remove a borda dos botões */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos botões */
+    cursor: pointer; /* Altera o cursor para pointer ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo dos botões ao passar o mouse sobre eles */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    padding: 0; /* Remove a margem interna da lista */
+}
+
+li {
+    padding: 10px; /* Adiciona uma margem interna aos itens da lista */
+    border-bottom: 1px solid #ddd; /* Adiciona uma borda inferior aos itens da lista */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: space-between; /* Alinha o conteúdo dos itens da lista */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove a borda inferior do último item da lista */
+}
+
+li button {
+    background-color: red; /* Define a cor de fundo dos botões de deletar */
+    padding: 5px 10px; /* Define a margem interna dos botões de deletar */
+}

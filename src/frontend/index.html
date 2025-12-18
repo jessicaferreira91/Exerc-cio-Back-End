@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Pokemon</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para a folha de estilos CSS -->
+</head>
+<body>
+    <h1>Gerenciamento de Pokemon</h1> <!-- Título do projeto -->
+    <h2>Adicionar Pokemon</h2> <!-- Subtítulo -->
+
+    <input type="text" id="Nome" placeholder="Nome"> <!-- Campo de entrada para o nome do usuário -->
+    <input type="text" id="Tipo" placeholder="Tipo"> <!-- Campo de entrada para o email do usuário -->
+    <input type="number" id="nivel" placeholder="nivel"> <!-- Campo de entrada para a senha do usuário -->
+
+
+    <h2>Lista de Pokemons</h2>
+    
+
+    <button onclick="adicionarPokemon()">Adicionar</button>    <!-- Botão para adicionar o usuário, que chama uma função que adiciona o usuário -->
+    <button onclick="atualizarPokemon()">Salvar Alteração</button>
+
+
+    <button onclick="obterPokemon()">Atualizar Lista</button> <!-- Botão para atualizar a lista de usuários, que chama uma função que atualiza a lista -->
+    <ul id="Pokemon"></ul> <!-- Lista para exibir os usuários -->
+    
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+
+</body>
+</html>
